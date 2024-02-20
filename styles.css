@@ -1,35 +1,32 @@
 body {
-    margin: 0; 
-    font-family: 
-    Helvetica; }
+    background-image: url(img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-header {
-    text-align: center; }
 
-section {
-    background: #FAFAFA; 
-    padding-top: 60px; }
+.accordion {
+    width: 65%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+} 
 
-div.header {
-    padding: 15px;}
+.accordion .accordion-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
 
-div.header h2{
-    margin: 0; 
-    font-size: 20px; 
-    color: black; 
-    display: inline-block;}
+.accordion .content-container .question {
+    padding: 18px 0px;
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
 
-.box .header .date {
-    float: right; 
-    margin: 0;}
 
-.box {
-    background: white; width: 600px; 
-	margin: auto; margin-bottom: 60px; 
-	margin-top: 60px; border: 1px solid #EDEEEE;}
-
-img {
-    width: 100%;}
-
-div.description { 
-    padding: 15px; color: black;}
